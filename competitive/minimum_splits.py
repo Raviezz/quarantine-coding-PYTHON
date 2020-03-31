@@ -17,3 +17,17 @@
             Explanation: Resultant prime segments are 2,37567,2
 
 """
+
+class minimun_splits:
+    def __init__(self):
+        pass
+
+    def find_minimun_splits_ravi(str):
+        # don't code here , create a new one
+        pass
+
+
+if __name__ == "__main__":
+    minimun_splits().find_minimun_splits_ravi("12345")
+
+
