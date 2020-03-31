@@ -1,0 +1,11 @@
+This is kind of index :
+below information follows the format >>
+# (question_no): (question description)
+#		(language): (folder/file_name)
+
+
+1 : Minimum splits required to convert a number into prime segments .
+		python: python/competitive/minimum_splits
+		java  : java/competitive/MinimumSplit 	
+	
+	
