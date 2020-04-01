@@ -1,14 +1,17 @@
 Syntax of questions:
   # below information follows the format:
-  <question_no>: <question description>
-    <language>: <path/to/file>
+  <question_no>:
+    - <question description>
+    - <language>: path/to/file
 
 Questions:
-	1: Minimum splits required to convert a number into prime segments
-	  python: python/competitive/minimum_splits
-	  java: java/competitive/MinimumSplit
-	2: Add Two Numbers .
-      python: python/competitive/add_two_numbers
-      java: java/competitive/AddTwoNumbers  
-    3:  
+  1:
+    - Minimum splits required to convert a number into prime segments
+    - python: python/competitive/minimum_splits
+    - java: java/competitive/MinimumSplit
+  2:
+    - Add Two Numbers.
+    - python: python/competitive/add_two_numbers
+    - java: java/competitive/AddTwoNumbers
+
       
