@@ -1,7 +1,5 @@
 # quarantine-coding-marathon
-#Programming
-a.java folder -> standalone java project .
-b.python folder -> standalone pycharm python project
+#Programming.
 
 Instructures:
 1. Every program has its description followed by test cases , Read it.
