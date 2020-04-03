@@ -25,6 +25,15 @@ Following Code relates to "Matrix Chain Of Multiplication"
 
 follow these , first you will understand what is matrix chain multi , why should we use it.
 
+Theoretical Solution:
+	The problem here is not just to find primes on the given input, but to split the string in such 
+	int such a way the all primes identified in it are split exactly.
+	The way solution is silimilar to MATRIX CHAIN MULTIPLICATION
+	In MCM we ai ti multiply the given matrices in minimum multiplications
+	A,B,C,D -> (A(BC))D 
+	Placing brackets btw the matrices to make efficient multiplication.
+	  
+
 
 
  *
@@ -39,7 +48,7 @@ public class MinimunSplits {
 				memory[i][j] = 0;
 			}
 		}
-		
+		//System.out.print(isPrime(1234));
 		System.out.print(new MinimunSplits().getMiniMumSplit("2352", 0, 3));
 	}
 	public static boolean isPrime(int num) {
@@ -70,9 +79,7 @@ public class MinimunSplits {
 		int res = min;
 		for(int k=i;k<j;k++) {
 			int left = getMiniMumSplit(s, i, k);
-			if(left == min) {
-				continue;
-			}
+			if(left == min) continue;
 			
 			int right = getMiniMumSplit(s, k+1, j);
 			if(right == min) continue;
