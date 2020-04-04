@@ -1,0 +1,16 @@
+Longest Substring Without Repeating Characters:
+
+Given a substring , find the length of the longest substring without repeating characters:
+
+Examples:
+ input: "abcabcbb"
+ ouput: "abc" 
+ return: 3
+
+2. input: "bbbbbb"
+   output: "b"
+   return 1
+
+3. input : "pwwkew"
+   outputs: "wke" / "kew"
+   return 3
