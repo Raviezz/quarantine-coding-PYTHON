@@ -13,5 +13,20 @@ Questions:
     - Add Two Numbers.
     - python: python/competitive/add_two_numbers
     - java: java/competitive/AddTwoNumbers
+    
+ 3:
+    - Two Sum.
+    - python: 
+    - java: java/competitive/TwoSum
+ 4:
+    - Longest NonRepeating Substring
+    - python:
+    - java: java/competitive/LongestNonRepeatingSubstring
+    
+ 5:
+    - Group Anagrams.
+    - python:
+    - java: java/competitive/GroupAnagrams
+    
 
       
