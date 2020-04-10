@@ -27,6 +27,10 @@ Questions:
     - Group Anagrams.
     - python:
     - java: java/competitive/GroupAnagrams
+ 6:
+    - Back Space String Compare.
+    - python:
+    - java: java/competitive/BackSpaceCompare
     
 
       
